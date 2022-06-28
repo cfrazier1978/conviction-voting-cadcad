@@ -18,14 +18,14 @@ This cadCAD model and notebook series is a collaboration between <a href="https:
 * <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v1/Aragon_Conviction_Voting_Model.ipynb" target="_blank">V1 - Initial model</a>: the simplest version of the CV model. Start here if you are looking to understand and replicate this model in cadCAD
 * <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/model_structure.ipynb" target="_blank">Model Structure</a>: a deeper look into the structure of the cadCAD model. Read this document if you are learning how to work with system modelling in cadCAD.
 
-
+<br>
 ___
 
- 
+ <br>
 
-# Background information & concepts addressed
+## Background information & concepts addressed
 
-## What does this cadCAD model do?
+### What does this cadCAD model do?
 In cyber-physical systems like international power grids, global flight networks, or socioeconomic community ecosystems, engineers model simulated replicas of their system, called digital twins. These models help to manage the complexity of systems that have trillions of data points and are constantly in flux. These simulations channel the information into pathways that allow humans to understand what is going on in their ecosystem at a high level, so they can intervene where and as appropriate. (Like hitting a breaker switch when a fault is cleared in a power system).
 
 ![img](https://i.imgur.com/kb4Tnh6.jpg)
@@ -38,7 +38,7 @@ The notebooks contained here are a mix of code snippets, explainer content, simu
 
 <br>
 
-## Conviction Voting Basics
+### Conviction Voting Basics
 
 <a href="https://medium.com/commonsstack/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-62e215ad2b3d" target="_blank">Conviction Voting</a> is a novel decision making process used to estimate real-time collective preference in a distributed work proposal system. Voters continuously express their preference by staking tokens in support of proposals they would like to see approved, with the conviction (i.e. weight) of their vote growing over time. Collective conviction accumulates until it reaches a set threshold specified by a proposal according to the amount of funds requested, at which point it passes and funds are released so work may begin. Conviction voting improves on discrete voting processes by allowing participants to vote at any time, and eliminates the need for consensus on each proposal. This eliminates the governance bottleneck of large distributed communities, where a quorum of participants is required to vote on every proposal. 
 
@@ -54,7 +54,7 @@ As our governance toolkits continue to expand with novel tools like Conviction V
 
 Conviction Voting offers us new insight into the collective intent of our communities. It offers us a richer signal of the emergent and dynamic preferences of a group, such that we can better understand and discuss important issues as communities. It eliminates attack vectors of ad hoc voting such as last minute vote swings, and reduces user friction by not requiring set times to cast a vote.  
 
-## Different Flavors of Conviction Voting
+### Different Flavors of Conviction Voting
 
 The design space for this new governance tool is wide and unexplored. From its academic origins in Dr. Zargham's PhD research in multi agent coordination systems, Conviction Voting was called <a href="https://github.com/BlockScience/conviction/blob/master/social-sensorfusion.pdf" target="_blank">Social Sensor Fusion</a> and was a continuous 'fusion' of individual desires into a collective sentiment signal. This suggests there could be multiple "flavors" of Conviction Voting:
 
@@ -68,21 +68,21 @@ The design space for this new governance tool is wide and unexplored. From its a
 
 There are likely to be many more useful applications of this real-time governance tool in community decision making and beyond. We look forward to continuing this research and creating the open source foundations of models which can be iterated towards widely varying scenarios for facilitating collective intelligence.
 
-## Conviction Voting In-Depth
+### Conviction Voting In-Depth
 Conviction voting is based on a linear system akin to a capacitor which "charges up" dynamically and proposals pass when a certain level of collective energy is reached. The details are explained and demonstrated throughout this repo but the best place to start is the <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/algorithm_overview.ipynb" target="_blank">Conviction Voting Algorithm Overview</a>. For more details on the charging up mechanics and the alpha parameter see the <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v3/Deriving_Alpha.ipynb" target="_blank">Deriving Alpha Parameter Explainer</a> notebook and for more details on the proposal passing mechanism,  see the <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v3/Trigger_Function_Explanation.ipynb" target="_blank">Trigger Function Explainer</a> notebook.
 
 <br>
 
 ___
 
-# Current CV Experiments
+## Current CV Experiments
 
-## 1Hive
+### 1Hive
 The <a href="https://www.1hive.org" target="_blank">1Hive</a> community has been actively developing Conviction Voting contracts in collaboration with BlockScience and the Commons Stack since early 2019. They currently have a DAO live on the xDAI network at <a href="https://www.1hive.org" target="_blank">1hive.org</a> that uses a native governance token (Honey) to allocate funds to proposals via Conviction Voting.
 
 To see Conviction Voting deployed in smart contracts with a basic user interface, check out the <a href="https://github.com/1Hive/conviction-voting-app" target="_blank">1Hive Github</a>.
 
-## Commons Simulator
+### Commons Simulator
 
 The <a href="https://www.commonsstack.org" target="_blank">Commons Stack</a> has been working on a 'Commons Simulator' to facilitate user understanding of these novel governance tools, by casting them in a futuristic solarpunk storyline. Progress on the simulation and it's Conviction Voting work can be viewed in <a href="https://github.com/commons-stack/coodcad" target="_blank">the Commons Stack Github repo</a>.
 
@@ -90,7 +90,7 @@ The <a href="https://www.commonsstack.org" target="_blank">Commons Stack</a> has
 
 ___
 
-## What is cadCAD?
+### What is cadCAD?
 cadCAD (complex adaptive dynamics Computer-Aided Design) is a python based modeling framework for research, validation, and Computer Aided Design of complex systems. Given a model of a complex system, cadCAD can simulate the impact that a set of actions might have on it. This helps users make informed, rigorously tested decisions on how best to modify or interact with the system in order to achieve their goals. cadCAD supports different system modeling approaches and can be easily integrated with common empirical data science workflows. Monte Carlo methods, A/B testing and parameter sweeping features are natively supported and optimized for.
 
 
@@ -103,7 +103,7 @@ cadCAD links:
 
 <br> 
 
-## Model Reproducibility
+### Model Reproducibility
 In order to reperform this code, we recommend the researcher use the following link
 <a href="https://www.anaconda.com/products/individual" target="_blank">https://www.anaconda.com/products/individual</a> to download Python 3.7. To install the specific version of cadCAD this repository was built with, run the following code:
 `pip install cadCAD==0.4.21`
@@ -116,30 +116,30 @@ Check out the <a href="https://community.cadcad.org/t/python-newbies-setup-for-c
 
 ___
 
-## Further Background Reading
+### Further Background Reading
 
-### Systems Thinking
+#### Systems Thinking
 * <a href="https://community.cadcad.org/t/introduction-to-systems-thinking/18" target="_blank">https://community.cadcad.org/t/introduction-to-systems-thinking/18</a>
 * <a href="https://community.cadcad.org/t/working-glossary-of-systems-concepts/17" target="_blank">https://community.cadcad.org/t/working-glossary-of-systems-concepts/17</a>
 
-### Token Engineering
+#### Token Engineering
 
 * <a href="https://blog.oceanprotocol.com/towards-a-practice-of-token-engineering-b02feeeff7ca" target="_blank">https://blog.oceanprotocol.com/towards-a-practice-of-token-engineering-b02feeeff7ca</a>
 * <a href="https://assets.pubpub.org/sy02t720/31581340240758.pdf" target="_blank">https://assets.pubpub.org/sy02t720/31581340240758.pdf</a>
 
-### Complex systems
+#### Complex systems
 
 * <a href="https://ergodicityeconomics.com/lecture-notes/" target="_blank">https://ergodicityeconomics.com/lecture-notes/</a>
 * <a href="https://www.frontiersin.org/articles/10.3389/fams.2015.00007/full" target="_blank">https://www.frontiersin.org/articles/10.3389/fams.2015.00007/full</a>
 * <a href="https://epub.wu.ac.at/7433/1/zargham_paruch_shorish.pdf" target="_blank">https://epub.wu.ac.at/7433/1/zargham_paruch_shorish.pdf</a>
 
-### Systems Engineering
+#### Systems Engineering
 
 * <a href="http://systems.hitchins.net/systems-engineering/se-monographs/seessence.pdf" target="_blank">http://systems.hitchins.net/systems-engineering/se-monographs/seessence.pdf</a>
 
 ___
 
-## Funding Continued Work
+### Funding Continued Work
 
 This Conviction Voting model will continue to be iterated and modified to suit varying use cases, with increased functionality (next steps are discussed at the end of the v3 model notebook). If you would like to support this work, please consider voting in support of our proposal in the Aragon Conviction Funding Pilot with your ANT tokens: <a href="https://conviction.aragon.org/#/proposal/7" target="_blank">https://conviction.aragon.org/#/proposal/7</a>
 
