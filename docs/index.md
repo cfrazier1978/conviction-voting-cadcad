@@ -98,7 +98,9 @@ cadCAD (complex adaptive dynamics Computer-Aided Design) is a python based model
 
 cadCAD links:
 * <a href="https://community.cadcad.org/t/introduction-to-cadcad/15" target="_blank">https://community.cadcad.org/t/introduction-to-cadcad/15</a>
+
 * <a href="https://community.cadcad.org/t/putting-cadcad-in-context/19" target="_blank">https://community.cadcad.org/t/putting-cadcad-in-context/19</a>
+
 * <a href="https://github.com/cadCAD-org/demos" target="_blank">https://github.com/cadCAD-org/demos</a>
 
 <br> 
