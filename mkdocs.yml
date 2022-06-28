@@ -3,4 +3,4 @@ extra_javascript:
     - mathjaxhelper.js
 markdown_extensions:
   - mdx_math
-theme: material
+theme: readthedocs
