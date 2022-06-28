@@ -77,17 +77,14 @@ ___
 
 # Current CV Experiments
 
-
-<a href="https://myexeternalsite.com" target="_blank">My External Site</a>
-
 ## 1Hive
-The [1Hive](https://www.1hive.org) community has been actively developing Conviction Voting contracts in collaboration with BlockScience and the Commons Stack since early 2019. They currently have a DAO live on the xDAI network at [1hive.org](https://www.1hive.org) that uses a native governance token (Honey) to allocate funds to proposals via Conviction Voting.
+The <a href="https://www.1hive.org" target="_blank">1Hive</a> community has been actively developing Conviction Voting contracts in collaboration with BlockScience and the Commons Stack since early 2019. They currently have a DAO live on the xDAI network at <a href="https://www.1hive.org" target="_blank">1hive.org</a> that uses a native governance token (Honey) to allocate funds to proposals via Conviction Voting.
 
-To see Conviction Voting deployed in smart contracts with a basic user interface, check out the [1Hive Github](https://github.com/1Hive/conviction-voting-app).
+To see Conviction Voting deployed in smart contracts with a basic user interface, check out the <a href="https://github.com/1Hive/conviction-voting-app" target="_blank">1Hive Github</a>.
 
 ## Commons Simulator
 
-The [Commons Stack](https://www.commonsstack.org) has been working on a 'Commons Simulator' to facilitate user understanding of these novel governance tools, by casting them in a futuristic solarpunk storyline. Progress on the simulation and it's Conviction Voting work can be viewed in [the Commons Stack Github repo](https://github.com/commons-stack/coodcad).
+The <a href="https://www.commonsstack.org" target="_blank">Commons Stack</a> has been working on a 'Commons Simulator' to facilitate user understanding of these novel governance tools, by casting them in a futuristic solarpunk storyline. Progress on the simulation and it's Conviction Voting work can be viewed in <a href="https://github.com/commons-stack/coodcad" target="_blank">the Commons Stack Github repo</a>.
 
 <br>
 
@@ -96,20 +93,24 @@ ___
 ## What is cadCAD?
 cadCAD (complex adaptive dynamics Computer-Aided Design) is a python based modeling framework for research, validation, and Computer Aided Design of complex systems. Given a model of a complex system, cadCAD can simulate the impact that a set of actions might have on it. This helps users make informed, rigorously tested decisions on how best to modify or interact with the system in order to achieve their goals. cadCAD supports different system modeling approaches and can be easily integrated with common empirical data science workflows. Monte Carlo methods, A/B testing and parameter sweeping features are natively supported and optimized for.
 
+
+
+
 cadCAD links:
-* https://community.cadcad.org/t/introduction-to-cadcad/15
-* https://community.cadcad.org/t/putting-cadcad-in-context/19
-* https://github.com/cadCAD-org/demos
+* <a href="https://community.cadcad.org/t/introduction-to-cadcad/15" target="_blank">https://community.cadcad.org/t/introduction-to-cadcad/15</a>
+* <a href="https://community.cadcad.org/t/putting-cadcad-in-context/19" target="_blank">https://community.cadcad.org/t/putting-cadcad-in-context/19</a>
+* <a href="https://github.com/cadCAD-org/demos" target="_blank">https://github.com/cadCAD-org/demos</a>
 
 <br> 
 
 ## Model Reproducibility
-In order to reperform this code, we recommend the researcher use the following link https://www.anaconda.com/products/individual to download Python 3.7. To install the specific version of cadCAD this repository was built with, run the following code:
-pip install cadCAD==0.4.21
+In order to reperform this code, we recommend the researcher use the following link
+<a href="https://www.anaconda.com/products/individual" target="_blank">https://www.anaconda.com/products/individual</a> to download Python 3.7. To install the specific version of cadCAD this repository was built with, run the following code:
+`pip install cadCAD==0.4.21`
 
 Then run cd Aragon_Conviction_Voting to enter the repository. Finally, run jupyter notebook to open a notebook server to run the various notebooks in this repository.
 
-Check out the [cadCAD forum](https://community.cadcad.org/t/python-newbies-setup-for-cadcad/101) for more information about installing and using cadCAD.
+Check out the <a href="https://community.cadcad.org/t/python-newbies-setup-for-cadcad/101" target="_blank">cadCAD forum</a> for more information about installing and using cadCAD.
 
 <br>
 
@@ -117,32 +118,35 @@ ___
 
 ## Further Background Reading
 
-### Systems Thinking
-* [https://community.cadcad.org/t/introduction-to-systems-thinking/18](https://community.cadcad.org/t/introduction-to-systems-thinking/18)
-* [https://community.cadcad.org/t/working-glossary-of-systems-concepts/17](https://community.cadcad.org/t/working-glossary-of-systems-concepts/17)
 
+<a href="https://myexeternalsite.com" target="_blank">My External Site</a>
+
+
+
+### Systems Thinking
+* <a href="https://community.cadcad.org/t/introduction-to-systems-thinking/18" target="_blank">https://community.cadcad.org/t/introduction-to-systems-thinking/18</a>
+* <a href="https://community.cadcad.org/t/working-glossary-of-systems-concepts/17" target="_blank">https://community.cadcad.org/t/working-glossary-of-systems-concepts/17</a>
 
 ### Token Engineering
 
-* https://blog.oceanprotocol.com/towards-a-practice-of-token-engineering-b02feeeff7ca
-* https://assets.pubpub.org/sy02t720/31581340240758.pdf
+* <a href="https://blog.oceanprotocol.com/towards-a-practice-of-token-engineering-b02feeeff7ca" target="_blank">https://blog.oceanprotocol.com/towards-a-practice-of-token-engineering-b02feeeff7ca</a>
+* <a href="https://assets.pubpub.org/sy02t720/31581340240758.pdf" target="_blank">https://assets.pubpub.org/sy02t720/31581340240758.pdf</a>
 
 ### Complex systems
 
-* https://ergodicityeconomics.com/lecture-notes/
-* https://www.frontiersin.org/articles/10.3389/fams.2015.00007/full
-* https://epub.wu.ac.at/7433/1/zargham_paruch_shorish.pdf
-
+* <a href="https://ergodicityeconomics.com/lecture-notes/" target="_blank">https://ergodicityeconomics.com/lecture-notes/</a>
+* <a href="https://www.frontiersin.org/articles/10.3389/fams.2015.00007/full" target="_blank">https://www.frontiersin.org/articles/10.3389/fams.2015.00007/full</a>
+* <a href="https://epub.wu.ac.at/7433/1/zargham_paruch_shorish.pdf" target="_blank">https://epub.wu.ac.at/7433/1/zargham_paruch_shorish.pdf</a>
 
 ### Systems Engineering
 
-* http://systems.hitchins.net/systems-engineering/se-monographs/seessence.pdf
+* <a href="http://systems.hitchins.net/systems-engineering/se-monographs/seessence.pdf" target="_blank">http://systems.hitchins.net/systems-engineering/se-monographs/seessence.pdf</a>
 
 ___
 
 ## Funding Continued Work
 
-This Conviction Voting model will continue to be iterated and modified to suit varying use cases, with increased functionality (next steps are discussed at the end of the v3 model notebook). If you would like to support this work, please consider voting in support of our proposal in the Aragon Conviction Funding Pilot with your ANT tokens: https://conviction.aragon.org/#/proposal/7
+This Conviction Voting model will continue to be iterated and modified to suit varying use cases, with increased functionality (next steps are discussed at the end of the v3 model notebook). If you would like to support this work, please consider voting in support of our proposal in the Aragon Conviction Funding Pilot with your ANT tokens: <a href="https://conviction.aragon.org/#/proposal/7" target="_blank">https://conviction.aragon.org/#/proposal/7</a>
 
 Alternatively, you can contribute ETH or other ERC-20 tokens to this address: 
 
