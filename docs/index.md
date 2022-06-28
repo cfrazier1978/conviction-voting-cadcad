@@ -1,22 +1,22 @@
 # Aragon Conviction Voting
 
-This cadCAD model and notebook series is a collaboration between <a href="https://aragon.org" target="_blank">Aragon Project</a>, [1Hive](https://1hive.org), [BlockScience](https://block.science), and [the Commons Stack](https://commonsstack.org). A brief table of contents follows to explain the file structure of the various documents produced in this collaboration.
+This cadCAD model and notebook series is a collaboration between <a href="https://aragon.org" target="_blank">Aragon Project</a>, <a href="https://1hive.org" target="_blank">1Hive</a>, <a href="https://block.science" target="_blank">BlockScience</a>, and <a href="https://commonsstack.org" target="_blank">The Commons Stack</a>. A brief table of contents follows to explain the file structure of the various documents produced in this collaboration.
 
 ## Table of Contents
 ### 1. Supporting documentation for context
-* [Readme doc](https://github.com/BlockScience/Aragon_Conviction_Voting/blob/master/README.md) (you are here): For an overview of Conviction Voting and what exactly we're trying to do with this model, start right here
-* [Conviction Voting Algorithm Overview](https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/algorithm_overview.ipynb): For a deeper understanding of the CV algorithm, including its mathematical derivation, read this document
-* [Deriving the Alpha Parameter](https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v3/Deriving_Alpha.ipynb): For an in-depth look at the specific considerations around the alpha parameter, which sets the half life decay of conviction, read this notebook
-* [Explaining the Trigger Function](https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v3/Trigger_Function_Explanation.ipynb): For an in-depth look at the trigger function equation and how proposals pass from candidate to active status, read this notebook
+* <a href="https://github.com/BlockScience/Aragon_Conviction_Voting/blob/master/README.md" target="_blank">Readme doc</a> (you are here): For an overview of Conviction Voting and what exactly we're trying to do with this model, start right here
+* <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/algorithm_overview.ipynb" target="_blank">Conviction Voting Algorithm Overview</a>: For a deeper understanding of the CV algorithm, including its mathematical derivation, read this document
+* <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v3/Deriving_Alpha.ipynb" target="_blank">Deriving the Alpha Parameter</a>: For an in-depth look at the specific considerations around the alpha parameter, which sets the half life decay of conviction, read this notebook
+* <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v3/Trigger_Function_Explanation.ipynb" target="_blank">Explaining the Trigger Function</a>: For an in-depth look at the trigger function equation and how proposals pass from candidate to active status, read this notebook
 
 
 
 ### 2. Simulation Notebooks
 
-* [V3 - 1Hive model](https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/a5bf8accbc832c34e3cc7f206106edd89ea0aa7d/models/v3/Aragon_Conviction_Voting_Model.ipynb): The latest notebook iteration of CV, modeling 1Hive's deployment
-* [V2 - Increased complexity model](https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v2/Aragon_Conviction_Voting_Model.ipynb): a former version of the CV model with increased mechanism complexity over v1
-* [V1 - Initial model](https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v1/Aragon_Conviction_Voting_Model.ipynb): the simplest version of the CV model. Start here if you are looking to understand and replicate this model in cadCAD
-* [Model Structure](https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/model_structure.ipynb): a deeper look into the structure of the cadCAD model. Read this document if you are learning how to work with system modelling in cadCAD.
+* <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/a5bf8accbc832c34e3cc7f206106edd89ea0aa7d/models/v3/Aragon_Conviction_Voting_Model.ipynb" target="_blank">V3 - 1Hive model</a>: The latest notebook iteration of CV, modeling 1Hive's deployment
+* <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v2/Aragon_Conviction_Voting_Model.ipynb" target="_blank">V2 - Increased complexity model</a>: a former version of the CV model with increased mechanism complexity over v1
+* <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v1/Aragon_Conviction_Voting_Model.ipynb" target="_blank">V1 - Initial model</a>: the simplest version of the CV model. Start here if you are looking to understand and replicate this model in cadCAD
+* <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/model_structure.ipynb" target="_blank">Model Structure</a>: a deeper look into the structure of the cadCAD model. Read this document if you are learning how to work with system modelling in cadCAD.
 <br>
 
 ___
@@ -32,7 +32,7 @@ In cyber-physical systems like international power grids, global flight networks
 
 Digital twins can be considered like a flight simulator, which can be used to run your system through a billion different "tests", varying one parameter at a time, to see what effects may throw your system out of balance. As engineers with public safety in mind, we must understand the tipping points of our systems, and ensure mechanisms are in place to push the system back towards balance if and when they enter their boundary conditions of safety.
 
-This cadCAD model is a digital twin of Conviction Voting, as applied in the 1Hive DAO ecosystem. It can be used to provide operational support in decision making both during the design stage, and also in the continuous governance of the 1Hive system, providing [Computer Aided Governance](https://medium.com/block-science/computer-aided-governance-cag-a-revolution-in-automated-decision-support-systems-9faa009e57a2) for 1Hive members. 
+This cadCAD model is a digital twin of Conviction Voting, as applied in the 1Hive DAO ecosystem. It can be used to provide operational support in decision making both during the design stage, and also in the continuous governance of the 1Hive system, providing <a href="https://medium.com/block-science/computer-aided-governance-cag-a-revolution-in-automated-decision-support-systems-9faa009e57a2" target="_blank">Computer Aided Governance</a> for 1Hive members. 
 
 The notebooks contained here are a mix of code snippets, explainer content, simulations, and a whole lot of background to get you more familiar with CV as a concept, and perhaps even diving into modelling similar systems, or extending this model even further using cadCAD. If you have any questions about this model or how to build with it in cadCAD, feel free to email jeff@block.science.
 
@@ -40,13 +40,9 @@ The notebooks contained here are a mix of code snippets, explainer content, simu
 
 ## Conviction Voting Basics
 
-[Conviction Voting](https://medium.com/commonsstack/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-62e215ad2b3d) is a novel decision making process used to estimate real-time collective preference in a distributed work proposal system. Voters continuously express their preference by staking tokens in support of proposals they would like to see approved, with the conviction (i.e. weight) of their vote growing over time. Collective conviction accumulates until it reaches a set threshold specified by a proposal according to the amount of funds requested, at which point it passes and funds are released so work may begin. Conviction voting improves on discrete voting processes by allowing participants to vote at any time, and eliminates the need for consensus on each proposal. This eliminates the governance bottleneck of large distributed communities, where a quorum of participants is required to vote on every proposal. 
+<a href="https://medium.com/commonsstack/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-62e215ad2b3d" target="_blank">Conviction Voting</a> is a novel decision making process used to estimate real-time collective preference in a distributed work proposal system. Voters continuously express their preference by staking tokens in support of proposals they would like to see approved, with the conviction (i.e. weight) of their vote growing over time. Collective conviction accumulates until it reaches a set threshold specified by a proposal according to the amount of funds requested, at which point it passes and funds are released so work may begin. Conviction voting improves on discrete voting processes by allowing participants to vote at any time, and eliminates the need for consensus on each proposal. This eliminates the governance bottleneck of large distributed communities, where a quorum of participants is required to vote on every proposal. 
 
 ![img](https://github.com/1Hive/conviction-voting-cadcad/raw/master/images/cv_background_1.PNG)
-
-![img](https://github.com/1Hive/conviction-voting-cadcad/blob/master/images/CV_background_1.PNG?raw=true)
-
-![img](https://raw.githubusercontent.com/1Hive/conviction-voting-cadcad/master/images/cv_background_1.PNG)
 
 Legacy voting systems face several difficulties in transforming private, distributed, continuous and time varying individual signals (e.g. desiring our roads to be safer) into public, centralized, discrete and event-based collective outcomes (e.g. filling potholes on streets in your neighbourhood). Conviction Voting is a real-time governance tool designed to aggregate collective preferences, expressed continuously. 
 
@@ -60,7 +56,7 @@ Conviction Voting offers us new insight into the collective intent of our commun
 
 ## Different Flavors of Conviction Voting
 
-The design space for this new governance tool is wide and unexplored. From its academic origins in Dr. Zargham's PhD research in multi agent coordination systems, Conviction Voting was called [Social Sensor Fusion](https://github.com/BlockScience/conviction/blob/master/social-sensorfusion.pdf) and was a continuous 'fusion' of individual desires into a collective sentiment signal. This suggests there could be multiple "flavors" of Conviction Voting:
+The design space for this new governance tool is wide and unexplored. From its academic origins in Dr. Zargham's PhD research in multi agent coordination systems, Conviction Voting was called <a href="https://github.com/BlockScience/conviction/blob/master/social-sensorfusion.pdf" target="_blank">Social Sensor Fusion</a> and was a continuous 'fusion' of individual desires into a collective sentiment signal. This suggests there could be multiple "flavors" of Conviction Voting:
 
 * **Discrete proposal CV**: Like the 1Hive or Commons Stack model, this version of CV fuses continuous preferences into a conviction signal, passing the proposal at a specific point in time, when sufficient community support has been reached. 
 
@@ -73,13 +69,16 @@ The design space for this new governance tool is wide and unexplored. From its a
 There are likely to be many more useful applications of this real-time governance tool in community decision making and beyond. We look forward to continuing this research and creating the open source foundations of models which can be iterated towards widely varying scenarios for facilitating collective intelligence.
 
 ## Conviction Voting In-Depth
-Conviction voting is based on a linear system akin to a capacitor which "charges up" dynamically and proposals pass when a certain level of collective energy is reached. The details are explained and demonstrated throughout this repo but the best place to start is the [Conviction Voting Algorithm Overview](https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/algorithm_overview.ipynb). For more details on the charging up mechanics and the alpha parameter see the [Deriving Alpha Parameter Explainer](https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v3/Deriving_Alpha.ipynb) notebook and for more details on the proposal passing mechanism,  see the [Trigger Function Explainer](https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v3/Trigger_Function_Explanation.ipynb) notebook.
+Conviction voting is based on a linear system akin to a capacitor which "charges up" dynamically and proposals pass when a certain level of collective energy is reached. The details are explained and demonstrated throughout this repo but the best place to start is the <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/algorithm_overview.ipynb" target="_blank">Conviction Voting Algorithm Overview</a>. For more details on the charging up mechanics and the alpha parameter see the <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v3/Deriving_Alpha.ipynb" target="_blank">Deriving Alpha Parameter Explainer</a> notebook and for more details on the proposal passing mechanism,  see the <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v3/Trigger_Function_Explanation.ipynb" target="_blank">Trigger Function Explainer</a> notebook.
 
 <br>
 
 ___
 
 # Current CV Experiments
+
+
+<a href="https://myexeternalsite.com" target="_blank">My External Site</a>
 
 ## 1Hive
 The [1Hive](https://www.1hive.org) community has been actively developing Conviction Voting contracts in collaboration with BlockScience and the Commons Stack since early 2019. They currently have a DAO live on the xDAI network at [1hive.org](https://www.1hive.org) that uses a native governance token (Honey) to allocate funds to proposals via Conviction Voting.
