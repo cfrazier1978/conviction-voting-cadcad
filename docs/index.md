@@ -2,6 +2,8 @@
 
 This cadCAD model and notebook series is a collaboration between <a href="https://aragon.org" target="_blank">Aragon Project</a>, <a href="https://1hive.org" target="_blank">1Hive</a>, <a href="https://block.science" target="_blank">BlockScience</a>, and <a href="https://commonsstack.org" target="_blank">The Commons Stack</a>. A brief table of contents follows to explain the file structure of the various documents produced in this collaboration.
 
+You can access the GitHub repo for this project here: <a href="https://github.com/1Hive/conviction-voting-cadcad" target="_blank">GitHub Repo</a>.
+
 ## Table of Contents
 ### 1. Supporting documentation for context
 * <a href="https://github.com/BlockScience/Aragon_Conviction_Voting/blob/master/README.md" target="_blank">Readme doc</a> (you are here): For an overview of Conviction Voting and what exactly we're trying to do with this model, start right here
