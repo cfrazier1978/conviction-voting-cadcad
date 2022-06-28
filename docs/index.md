@@ -118,11 +118,6 @@ ___
 
 ## Further Background Reading
 
-
-<a href="https://myexeternalsite.com" target="_blank">My External Site</a>
-
-
-
 ### Systems Thinking
 * <a href="https://community.cadcad.org/t/introduction-to-systems-thinking/18" target="_blank">https://community.cadcad.org/t/introduction-to-systems-thinking/18</a>
 * <a href="https://community.cadcad.org/t/working-glossary-of-systems-concepts/17" target="_blank">https://community.cadcad.org/t/working-glossary-of-systems-concepts/17</a>
