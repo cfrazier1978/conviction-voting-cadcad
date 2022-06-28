@@ -17,10 +17,10 @@ This cadCAD model and notebook series is a collaboration between <a href="https:
 * <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v2/Aragon_Conviction_Voting_Model.ipynb" target="_blank">V2 - Increased complexity model</a>: a former version of the CV model with increased mechanism complexity over v1
 * <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/models/v1/Aragon_Conviction_Voting_Model.ipynb" target="_blank">V1 - Initial model</a>: the simplest version of the CV model. Start here if you are looking to understand and replicate this model in cadCAD
 * <a href="https://nbviewer.jupyter.org/github/BlockScience/Aragon_Conviction_Voting/blob/master/model_structure.ipynb" target="_blank">Model Structure</a>: a deeper look into the structure of the cadCAD model. Read this document if you are learning how to work with system modelling in cadCAD.
-<br>
+
 
 ___
-<br>
+
  
 
 # Background information & concepts addressed
