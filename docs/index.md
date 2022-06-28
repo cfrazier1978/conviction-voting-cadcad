@@ -46,7 +46,7 @@ The notebooks contained here are a mix of code snippets, explainer content, simu
 
 ![img](https://github.com/1Hive/conviction-voting-cadcad/blob/master/images/CV_background_1.PNG?raw=true)
 
-![img](https://raw.githubusercontent.com/1Hive/conviction-voting-cadcad/master/images/CV_background_1.PNG)
+![img](https://raw.githubusercontent.com/1Hive/conviction-voting-cadcad/master/images/cv_background_1.PNG)
 
 Legacy voting systems face several difficulties in transforming private, distributed, continuous and time varying individual signals (e.g. desiring our roads to be safer) into public, centralized, discrete and event-based collective outcomes (e.g. filling potholes on streets in your neighbourhood). Conviction Voting is a real-time governance tool designed to aggregate collective preferences, expressed continuously. 
 
