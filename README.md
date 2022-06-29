@@ -87,6 +87,11 @@ To see Conviction Voting deployed in smart contracts with a basic user interface
 
 Lorem ipsum
 
+https://gov.gitcoin.co/t/gtc-conviction-voting-dapp-gtc-utility/10523
+https://voting.gitcoin.co/
+https://convictionvoting.wtf/
+
+
 ## Ceramic 'Off-chain' Conviction Voting
 
 Lorem ipsum
