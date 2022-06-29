@@ -1,4 +1,4 @@
-# Conviction Voting
+# Conviction Voting cadCAD Model
 
 This cadCAD model and notebook series is a collaboration between [Aragon Project](https://aragon.org), [1Hive](https://1hive.org), [BlockScience](https://block.science), and [the Commons Stack](https://commonsstack.org). A brief table of contents follows to explain the file structure of the various documents produced in this collaboration.
 
