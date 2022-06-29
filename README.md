@@ -83,6 +83,14 @@ The [1Hive](https://www.1hive.org) community has been actively developing Convic
 
 To see Conviction Voting deployed in smart contracts with a basic user interface, check out the [1Hive Github](https://github.com/1Hive/conviction-voting-app).
 
+## Gitcoin Grant 'Conviction Ranking'
+
+Lorem ipsum
+
+## Ceramic 'Off-chain' Conviction Voting
+
+Lorem ipsum
+
 ## Commons Simulator
 
 The [Commons Stack](https://www.commonsstack.org) has been working on a 'Commons Simulator' to facilitate user understanding of these novel governance tools, by casting them in a futuristic solarpunk storyline. Progress on the simulation and it's Conviction Voting work can be viewed in [the Commons Stack Github repo](https://github.com/commons-stack/coodcad).
